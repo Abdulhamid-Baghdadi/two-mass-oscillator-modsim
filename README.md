@@ -1,6 +1,6 @@
 # Pendulum on a spring-suspended mass: 2-DOF multibody model
 
-A 2-degree-of-freedom oscillator, modelled from first principles and checked three ways: symbolic equations of motion (Newton–Euler **and** Lagrange), a hand-built Simulink block diagram, and a Simscape Multibody model. Course project in *Modelling & Simulation / Multibody Systems*, M.Sc. Mechatronics/Robotics, FH Technikum Wien (summer 2021, lecturer A. Mario Puhwein). This repo also has a Python re-implementation (sympy + scipy) that reproduces the original MATLAB results.
+A 2-degree-of-freedom oscillator, modelled from first principles and checked three ways: symbolic equations of motion (Newton–Euler **and** Lagrange), a hand-built Simulink block diagram, and a Simscape Multibody model. Course project in *Modelling & Simulation / Multibody Systems*, M.Sc. Mechatronics/Robotics, FH Technikum Wien (summer 2021). This repo also has a Python re-implementation (sympy + scipy) that reproduces the original MATLAB results.
 
 <p align="center"><img src="docs/pendulum_spring.gif" width="620" alt="animation of the pendulum on the spring-suspended mass"></p>
 
@@ -62,4 +62,4 @@ MATLAB (R2020b, Symbolic Math Toolbox, Simulink, Simscape Multibody): open the `
 
 ## Team & my contribution
 
-Group project by **Abdulhamid Baghdadi, Markus Keck and Leopold Maurer** (group E). The three of us did the derivation, the Simulink/Simscape models, the parameter design and both reports together (the Phase-1 live script lists Baghdadi and Keck as its authors). The final report is *"Aufbau eines 2-Massenschwingermodells"* (2021). It isn't included here because it contains course-provided figures and student IDs. The Python reproduction and this write-up were added by Abdulhamid Baghdadi in 2026. The course task and lecture material belong to FH Technikum Wien and aren't included.
+Group project by a team of three students. We did the derivation, the Simulink/Simscape models, the parameter design and the reports together. The final report (*"Aufbau eines 2-Massenschwingermodells"*, 2021) isn't included because it contains course-provided figures and personal data. I added the Python reproduction and this write-up in 2026. The course task and lecture material belong to FH Technikum Wien and aren't included.
